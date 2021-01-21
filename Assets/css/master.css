@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+}
+
+header,main,footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.bg-pink {
+  background: #E579E6;
+  height: 50px;
+
+}
+
+.bg-brown {
+  background: #E1D67A;
+  height: 300px;
+}
