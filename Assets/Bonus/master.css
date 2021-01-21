@@ -27,12 +27,17 @@ div [class^="col-"] {
 /* ELEMENTI FLOTTANTI */
 
 .logo {
-  display: block;
+
   height: 60px;
   width: 10%;
   border-right: 1px solid #C0C0C0;
   padding-right: 10px;
 
+}
+
+.img1 {
+  width: 100%;
+  height: 500px;
 }
 
 /* UTILITY */
@@ -103,5 +108,17 @@ div [class^="col-"] {
 
 .bg-purple {
   background: #8801FE;
+}
+
+.font-grey {
+  color: #C0C0C0;
+}
+
+.nav {
+  display: inline-block;
+  margin: 25px 0 5px;
+  padding-right: 15px;
+}
+
 
 /* UTILITY */
