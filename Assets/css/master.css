@@ -7,31 +7,24 @@
 body {
   height: 1000px;
 }
-
+/* CENTRAMENTO VARIE PARTI */
 header,main,footer {
   width: 80%;
   margin: 0 auto;
 }
-
+/* CENTRAMENTO VARIE PARTI */
 /* CLEARFIX */
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* CLEARFIX */
-
-
+/* ELEMENTI FLOTTANTI */
 div [class^="col-"] {
   float: left;
 }
-
-.container {
-
-
-}
+/* ELEMENTI FLOTTANTI */
 
 /* UTILITY */
 
